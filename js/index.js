@@ -114,3 +114,12 @@ footerColor.addEventListener("mouseenter", () => {
 footerp.addEventListener("mouseover", () => {
   footerp.style.color = "#17A2B8";
 });
+
+footerColor.addEventListener("mouseleave", () => {
+  footerColor.style.backgroundColor = "#FFEBCD";
+  footerColor.style.borderTop = "2px dashed #C0C0C0";
+});
+
+footerp.addEventListener("mouseleave", () => {
+  footerp.style.color = "#212529";
+});
